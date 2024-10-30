@@ -1,0 +1,161 @@
+columns:
+  - Destination_Port: int64
+  - Flow_Duration: int64
+  - Total_Fwd_Packets: int64
+  - Total_Backward_Packets: int64
+  - Total_Length_of_Fwd_Packets: int64
+  - Total_Length_of_Bwd_Packets: int64
+  - Fwd_Packet_Length_Max: int64
+  - Fwd_Packet_Length_Min: int64
+  - Fwd_Packet_Length_Mean: float64
+  - Fwd_Packet_Length_Std: float64
+  - Bwd_Packet_Length_Max: int64
+  - Bwd_Packet_Length_Min: int64
+  - Bwd_Packet_Length_Mean: float64
+  - Bwd_Packet_Length_Std: float64
+  - Flow_Bytes_per_second: float64
+  - Flow_Packets_per_second: float64
+  - Flow_IAT_Mean: float64
+  - Flow_IAT_Std: float64
+  - Flow_IAT_Max: int64
+  - Flow_IAT_Min: int64
+  - Fwd_IAT_Total: int64
+  - Fwd_IAT_Mean: float64
+  - Fwd_IAT_Std: float64
+  - Fwd_IAT_Max: int64
+  - Fwd_IAT_Min: int64
+  - Bwd_IAT_Total: int64
+  - Bwd_IAT_Mean: float64
+  - Bwd_IAT_Std: float64
+  - Bwd_IAT_Max: int64
+  - Bwd_IAT_Min: int64
+  - Fwd_PSH_Flags: int64
+  - Bwd_PSH_Flags: int64
+  - Fwd_URG_Flags: int64
+  - Bwd_URG_Flags: int64
+  - Fwd_Header_Length: int64
+  - Bwd_Header_Length: int64
+  - Fwd_Packets_per_second: float64
+  - Bwd_Packets_per_second: float64
+  - Min_Packet_Length: int64
+  - Max_Packet_Length: int64
+  - Packet_Length_Mean: float64
+  - Packet_Length_Std: float64
+  - Packet_Length_Variance: float64
+  - FIN_Flag_Count: int64
+  - SYN_Flag_Count: int64
+  - RST_Flag_Count: int64
+  - PSH_Flag_Count: int64
+  - ACK_Flag_Count: int64
+  - URG_Flag_Count: int64
+  - CWE_Flag_Count: int64
+  - ECE_Flag_Count: int64
+  - Down_Up_Ratio: int64
+  - Average_Packet_Size: float64
+  - Avg_Fwd_Segment_Size: float64
+  - Avg_Bwd_Segment_Size: float64
+  - Fwd_Header_Length_1: int64
+  - Fwd_Avg_Bytes_Bulk: int64
+  - Fwd_Avg_Packets_Bulk: int64
+  - Fwd_Avg_Bulk_Rate: int64
+  - Bwd_Avg_Bytes_Bulk: int64
+  - Bwd_Avg_Packets_Bulk: int64
+  - Bwd_Avg_Bulk_Rate: int64
+  - Subflow_Fwd_Packets: int64
+  - Subflow_Fwd_Bytes: int64
+  - Subflow_Bwd_Packets: int64
+  - Subflow_Bwd_Bytes: int64
+  - Init_Win_bytes_forward: int64
+  - Init_Win_bytes_backward: int64
+  - act_data_pkt_fwd: int64
+  - min_seg_size_forward: int64
+  - Active_Mean: float64
+  - Active_Std: float64
+  - Active_Max: int64
+  - Active_Min: int64
+  - Idle_Mean: float64
+  - Idle_Std: float64
+  - Idle_Max: int64
+  - Idle_Min: int64
+  - Label: string
+
+
+numerical_columns:
+  - Destination_Port
+  - Flow_Duration
+  - Total_Fwd_Packets
+  - Total_Backward_Packets
+  - Total_Length_of_Fwd_Packets
+  - Total_Length_of_Bwd_Packets
+  - Fwd_Packet_Length_Max
+  - Fwd_Packet_Length_Min
+  - Fwd_Packet_Length_Mean
+  - Fwd_Packet_Length_Std
+  - Bwd_Packet_Length_Max
+  - Bwd_Packet_Length_Min
+  - Bwd_Packet_Length_Mean
+  - Bwd_Packet_Length_Std
+  - Flow_Bytes_per_second
+  - Flow_Packets_per_second
+  - Flow_IAT_Mean
+  - Flow_IAT_Std
+  - Flow_IAT_Max
+  - Flow_IAT_Min
+  - Fwd_IAT_Total
+  - Fwd_IAT_Mean
+  - Fwd_IAT_Std
+  - Fwd_IAT_Max
+  - Fwd_IAT_Min
+  - Bwd_IAT_Total
+  - Bwd_IAT_Mean
+  - Bwd_IAT_Std
+  - Bwd_IAT_Max
+  - Bwd_IAT_Min
+  - Fwd_PSH_Flags
+  - Bwd_PSH_Flags
+  - Fwd_URG_Flags
+  - Bwd_URG_Flags
+  - Fwd_Header_Length
+  - Bwd_Header_Length
+  - Fwd_Packets_per_second
+  - Bwd_Packets_per_second
+  - Min_Packet_Length
+  - Max_Packet_Length
+  - Packet_Length_Mean
+  - Packet_Length_Std
+  - Packet_Length_Variance
+  - FIN_Flag_Count
+  - SYN_Flag_Count
+  - RST_Flag_Count
+  - PSH_Flag_Count
+  - ACK_Flag_Count
+  - URG_Flag_Count
+  - CWE_Flag_Count
+  - ECE_Flag_Count
+  - Down_Up_Ratio
+  - Average_Packet_Size
+  - Avg_Fwd_Segment_Size
+  - Avg_Bwd_Segment_Size
+  - Fwd_Header_Length_1
+  - Fwd_Avg_Bytes_Bulk
+  - Fwd_Avg_Packets_Bulk
+  - Fwd_Avg_Bulk_Rate
+  - Bwd_Avg_Bytes_Bulk
+  - Bwd_Avg_Packets_Bulk
+  - Bwd_Avg_Bulk_Rate
+  - Subflow_Fwd_Packets
+  - Subflow_Fwd_Bytes
+  - Subflow_Bwd_Packets
+  - Subflow_Bwd_Bytes
+  - Init_Win_bytes_forward
+  - Init_Win_bytes_backward
+  - act_data_pkt_fwd
+  - min_seg_size_forward
+  - Active_Mean
+  - Active_Std
+  - Active_Max
+  - Active_Min
+  - Idle_Mean
+  - Idle_Std
+  - Idle_Max
+  - Idle_Min

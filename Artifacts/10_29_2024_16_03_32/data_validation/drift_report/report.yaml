@@ -1,0 +1,253 @@
+ACK Flag Count:
+  drift_status: &id001 !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - b1
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AA==
+  p_value: 0.9996240972870971
+Active Max:
+  drift_status: *id001
+  p_value: 0.9999908175447864
+Active Mean:
+  drift_status: *id001
+  p_value: 0.9999977550979614
+Active Min:
+  drift_status: *id001
+  p_value: 0.9999981071651239
+Active Std:
+  drift_status: *id001
+  p_value: 0.9999999999999819
+Average Packet Size:
+  drift_status: *id001
+  p_value: 0.19147387077804334
+Avg Bwd Segment Size:
+  drift_status: *id001
+  p_value: 0.4960657496941272
+Avg Fwd Segment Size:
+  drift_status: *id001
+  p_value: 0.38955014732385296
+Bwd Avg Bulk Rate:
+  drift_status: *id001
+  p_value: 1.0
+Bwd Avg Bytes/Bulk:
+  drift_status: *id001
+  p_value: 1.0
+Bwd Avg Packets/Bulk:
+  drift_status: *id001
+  p_value: 1.0
+Bwd Header Length:
+  drift_status: *id001
+  p_value: 0.9536092164655989
+Bwd IAT Max:
+  drift_status: *id001
+  p_value: 0.9201268676183005
+Bwd IAT Mean:
+  drift_status: *id001
+  p_value: 0.9167303202236212
+Bwd IAT Min:
+  drift_status: *id001
+  p_value: 0.5947269657991048
+Bwd IAT Std:
+  drift_status: *id001
+  p_value: 0.9150038811342902
+Bwd IAT Total:
+  drift_status: *id001
+  p_value: 0.916730320223639
+Bwd PSH Flags:
+  drift_status: *id001
+  p_value: 1.0
+Bwd Packet Length Max:
+  drift_status: *id001
+  p_value: 0.7430830803505927
+Bwd Packet Length Mean:
+  drift_status: *id001
+  p_value: 0.4960657496941272
+Bwd Packet Length Min:
+  drift_status: *id001
+  p_value: 0.8460690600453642
+Bwd Packet Length Std:
+  drift_status: *id001
+  p_value: 0.5220793395840404
+Bwd Packets/s:
+  drift_status: *id001
+  p_value: 0.6858564722761217
+Bwd URG Flags:
+  drift_status: *id001
+  p_value: 1.0
+CWE Flag Count:
+  drift_status: *id001
+  p_value: 1.0
+Destination Port:
+  drift_status: *id001
+  p_value: 0.812781351487869
+Down/Up Ratio:
+  drift_status: *id001
+  p_value: 0.6443680665647272
+ECE Flag Count:
+  drift_status: *id001
+  p_value: 1.0
+FIN Flag Count:
+  drift_status: *id001
+  p_value: 1.0
+Flow Bytes/s:
+  drift_status: *id001
+  p_value: .nan
+Flow Duration:
+  drift_status: *id001
+  p_value: 0.8152354542995186
+Flow IAT Max:
+  drift_status: *id001
+  p_value: 0.8152354542995186
+Flow IAT Mean:
+  drift_status: *id001
+  p_value: 0.9458801682629796
+Flow IAT Min:
+  drift_status: *id001
+  p_value: 0.7269105625570635
+Flow IAT Std:
+  drift_status: *id001
+  p_value: 0.6526748442179409
+Flow Packets/s:
+  drift_status: *id001
+  p_value: .nan
+Fwd Avg Bulk Rate:
+  drift_status: *id001
+  p_value: 1.0
+Fwd Avg Bytes/Bulk:
+  drift_status: *id001
+  p_value: 1.0
+Fwd Avg Packets/Bulk:
+  drift_status: *id001
+  p_value: 1.0
+Fwd Header Length:
+  drift_status: *id001
+  p_value: 0.5194526961343704
+Fwd Header Length.1:
+  drift_status: *id001
+  p_value: 0.5194526961343704
+Fwd IAT Max:
+  drift_status: *id001
+  p_value: 0.8828985888568922
+Fwd IAT Mean:
+  drift_status: *id001
+  p_value: 0.8849253151912955
+Fwd IAT Min:
+  drift_status: *id001
+  p_value: 0.7404005251859583
+Fwd IAT Std:
+  drift_status: *id001
+  p_value: 0.5142157392016924
+Fwd IAT Total:
+  drift_status: *id001
+  p_value: 0.8483518882191227
+Fwd PSH Flags:
+  drift_status: *id001
+  p_value: 0.9458801682629796
+Fwd Packet Length Max:
+  drift_status: *id001
+  p_value: 0.43141706600635177
+Fwd Packet Length Mean:
+  drift_status: *id001
+  p_value: 0.38955014732385296
+Fwd Packet Length Min:
+  drift_status: *id001
+  p_value: 0.8889289370066401
+Fwd Packet Length Std:
+  drift_status: *id001
+  p_value: 0.8225310964089868
+Fwd Packets/s:
+  drift_status: *id001
+  p_value: 0.992370407533594
+Fwd URG Flags:
+  drift_status: *id001
+  p_value: 1.0
+Idle Max:
+  drift_status: *id001
+  p_value: 0.9999992306431674
+Idle Mean:
+  drift_status: *id001
+  p_value: 0.9999992306431674
+Idle Min:
+  drift_status: *id001
+  p_value: 0.9999859745001308
+Idle Std:
+  drift_status: *id001
+  p_value: 1.0
+Init_Win_bytes_backward:
+  drift_status: *id001
+  p_value: 0.333675388044834
+Init_Win_bytes_forward:
+  drift_status: *id001
+  p_value: 0.9217967846169467
+Label:
+  drift_status: *id001
+  p_value: 0.17444651780844866
+Max Packet Length:
+  drift_status: *id001
+  p_value: 0.5326384896087317
+Min Packet Length:
+  drift_status: *id001
+  p_value: 0.8460690600453642
+PSH Flag Count:
+  drift_status: *id001
+  p_value: 0.9217967846169467
+Packet Length Mean:
+  drift_status: *id001
+  p_value: 0.19835745148758466
+Packet Length Std:
+  drift_status: *id001
+  p_value: 0.15981034160459606
+Packet Length Variance:
+  drift_status: *id001
+  p_value: 0.15981034160459606
+RST Flag Count:
+  drift_status: *id001
+  p_value: 1.0
+SYN Flag Count:
+  drift_status: *id001
+  p_value: 0.9458801682629796
+Subflow Bwd Bytes:
+  drift_status: *id001
+  p_value: 0.5459494655247054
+Subflow Bwd Packets:
+  drift_status: *id001
+  p_value: 0.9742726239205067
+Subflow Fwd Bytes:
+  drift_status: *id001
+  p_value: 0.7404005251859583
+Subflow Fwd Packets:
+  drift_status: *id001
+  p_value: 0.8053551089661449
+Total Backward Packets:
+  drift_status: *id001
+  p_value: 0.9742726239205067
+Total Fwd Packets:
+  drift_status: *id001
+  p_value: 0.8053551089661449
+Total Length of Bwd Packets:
+  drift_status: *id001
+  p_value: 0.5459494655247054
+Total Length of Fwd Packets:
+  drift_status: *id001
+  p_value: 0.7404005251859583
+URG Flag Count:
+  drift_status: *id001
+  p_value: 1.0
+act_data_pkt_fwd:
+  drift_status: *id001
+  p_value: 0.8528764001162217
+min_seg_size_forward:
+  drift_status: *id001
+  p_value: 0.9282853640718942
