@@ -2,7 +2,15 @@
 
 ### Project Overview
 
-Network Intrusion Detection System (NIDS) designed to analyze network traffic and identify potential security threats in real-time. Built as a scalable machine learning pipeline, NIDSt supports AWS deployment and leverages hyperparameter-tuned models for optimal performance. It includes stages for data ingestion, validation, transformation, and model training, with endpoints for initiating training and making predictions via REST API.
+Network Intrusion Detection System (NIDS) designed to analyze network traffic and identify potential security threats in real-time. Built as a scalable machine learning pipeline, NIDS supports AWS deployment and leverages hyperparameter-tuned models for optimal performance. It includes stages for data ingestion, validation, transformation, and model training, with endpoints for initiating training and making predictions via REST API.
+
+The system classifies network traffic into the following categories:
+
+* **0** : BENIGN (normal traffic)
+* **1** : PortScan (scanning for open ports on a network)
+* **2** : DDoS (Distributed Denial of Service attack)
+* **3** : FTP-Patator (brute-force attack on FTP protocol)
+* **4** : SSH-Patator (brute-force attack on SSH protocol)
 
 ### Dataset Information
 
