@@ -4,6 +4,20 @@
 
 Network Intrusion Detection System (NIDS) designed to analyze network traffic and identify potential security threats in real-time. Built as a scalable machine learning pipeline, NIDSt supports AWS deployment and leverages hyperparameter-tuned models for optimal performance. It includes stages for data ingestion, validation, transformation, and model training, with endpoints for initiating training and making predictions via REST API.
 
+### Dataset Information
+
+This dataset contains network traffic flow features extracted from various network connections, commonly used for network intrusion detection or traffic analysis. Each row represents a unique network flow, described by several characteristics of packet transfer behavior. The features include:
+
+* **Basic Flow Details** : `Destination_Port`, `Flow_Duration`, `Total_Fwd_Packets`, `Total_Backward_Packets`
+* **Packet Length Stats** : Max, Min, Mean, Std of packet lengths (`Fwd_Packet_Length_Max`, `Bwd_Packet_Length_Min`, etc.)
+* **Flow Rates** : Bytes and packets per second for entire flow, forward, and backward directions (`Flow_Bytes_per_second`, `Fwd_Packets_per_second`, etc.)
+* **Inter-Arrival Times (IAT)** : Mean, Max, Min, and Std for packet inter-arrival times, both overall and direction-specific
+* **TCP Flags** : Counts of TCP flags (e.g., `FIN_Flag_Count`, `SYN_Flag_Count`) used for control and error-checking
+* **Bulk Transfer Features** : Average bulk rates and sizes for forward and backward data transfers
+* **Window Sizes and Segment Details** : Initial window sizes, active data packets, and segment size indicators
+* **Active and Idle Time Features** : Descriptive stats on active and idle times within flows (`Active_Mean`, `Idle_Max`, etc.)
+* **Label** : The target class indicating the type of traffic (e.g., benign and various attack types)
+
 ### Features
 
 * **Data Ingestion** : Converts network data from CSV to JSON and stores it in MongoDB for accessibility.
@@ -139,7 +153,6 @@ To ensure that each model operates at its highest performance level, a hyperpara
 Training
 
 ![1730110398465](image/README/1730110398465.png)
-
 
 Prediction
 
